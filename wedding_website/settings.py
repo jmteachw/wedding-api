@@ -25,7 +25,12 @@ SECRET_KEY = '-h=oc%^x205&m=pwso5^g!u_ja^xp1#9#9zr^ej%4_(d9t3v=!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '10.0.1.26',
+    '.alyandjordan.us'
+]
 
 
 # Application definition
