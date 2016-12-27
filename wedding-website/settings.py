@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'index.apps.IndexConfig'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -60,14 +61,15 @@ ROOT_URLCONF = 'wedding-website.urls'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.environ.get('STATIC_ROOT', os.path.join(BASE_DIR, "tmp"))
+STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"), )
 STATIC_URL = '/static/'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            STATIC_ROOT + '/main'
+            STATIC_ROOT + '/index'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
