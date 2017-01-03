@@ -7,6 +7,7 @@
 body {
     width: 100%;
     height: 100%;
+    background-color: #ccc;
 }
 
 html {
@@ -62,11 +63,11 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background-color: #fff;
-    background-image: url(../img/tree.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background: url('../img/tree.jpg') no-repeat 75% center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
 }
 
 .rsvp-section {
@@ -74,11 +75,11 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background-color: #eee;
-    background-image: url(../img/bench.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background: url('../img/bench.jpg') no-repeat 25% center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
 }
 
 .registry-section {
@@ -86,11 +87,11 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background-color: #fff;
-    background-image: url(../img/bridge.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background: url('../img/bridge.jpg') no-repeat 20% center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
 }
 
 .photos-section {
@@ -98,9 +99,9 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background-color: #eee;
-    background-image: url(../img/ccc_front.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background: url('../img/ccc_front.jpg') no-repeat 80% center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
 }
