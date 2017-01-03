@@ -63,7 +63,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background-color: #fff;
-    background: url('../img/tree.jpg') no-repeat 75% center fixed;
+    background: url('../img/tree.jpg');
+    background-repeat: no-repeat;
+    background-position: 75% center;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -75,7 +78,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background-color: #eee;
-    background: url('../img/bench.jpg') no-repeat 25% center fixed;
+    background: url('../img/bench.jpg');
+    background-repeat: no-repeat;
+    background-position: 25% center;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -87,7 +93,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background-color: #fff;
-    background: url('../img/bridge.jpg') no-repeat 20% center fixed;
+    background: url('../img/bridge.jpg');
+    background-repeat: no-repeat;
+    background-position: 20% center;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -99,7 +108,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background-color: #eee;
-    background: url('../img/ccc_front.jpg') no-repeat 80% center fixed;
+    background: url('../img/ccc_front.jpg');
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
