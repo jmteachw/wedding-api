@@ -27,34 +27,80 @@ html {
     }
 }
 
+.navbar {
+    background-color: rgba(200, 200, 200, 0.1);
+    border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: rgba(231, 231, 231, 0.5);
+    color: #111;
+}
+
+.navbar-default .navbar-brand {
+    color: #222;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #333;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #222
+}
+
+.col-lg-12 {
+    color: #222;
+}
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-.intro-section {
+.main-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
+    background-image: url(../img/tree.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.about-section {
+.rsvp-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
+    background-image: url(../img/bench.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.services-section {
+.registry-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
+    background-image: url(../img/bridge.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.contact-section {
+.photos-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
+    background-image: url(../img/ccc_front.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
