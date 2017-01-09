@@ -1,2 +1,2 @@
-# wedding-website
-Website for the wedding
+# wedding-api
+API for the wedding website
