@@ -1,5 +1,5 @@
-from django.http import HttpResponse
+from django.http import JsonResponse
 
 
 def add_rsvp_view(request):
-    return HttpResponse("Test")
+    return JsonResponse({'status': 'active'})
